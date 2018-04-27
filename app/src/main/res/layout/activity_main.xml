@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:id="@+id/base2View"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="2"
+                android:textSize="40sp"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="95dp" />
+
+            <EditText
+                android:id="@+id/power2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@id/base2View"
+                android:layout_alignRight="@id/base2View"
+                android:layout_alignTop="@id/base2View"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/base2View"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="86dp"
+                android:layout_marginStart="86dp"
+                android:text="="
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/base2Answer"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=""
+                android:textSize="25dp"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:id="@+id/base3View"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="3"
+                android:textSize="40sp"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="95dp" />
+
+            <EditText
+                android:id="@+id/power3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@id/base3View"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:layout_alignRight="@id/base3View" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/base3View"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="86dp"
+                android:text="="
+                android:textSize="25dp"
+                android:layout_marginLeft="86dp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/base3Answer"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=" "
+                android:textSize="25dp"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:id="@+id/base4View"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="4"
+                android:textSize="40sp"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="95dp" />
+
+            <EditText
+                android:id="@+id/power4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@id/base4View"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:layout_alignRight="@id/base4View" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/base4View"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="86dp"
+                android:text="="
+                android:textSize="25dp"
+                android:layout_marginLeft="86dp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/base4Answer"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=" "
+                android:textSize="25dp"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp">
+
+            <TextView
+                android:id="@+id/base5View"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="5"
+                android:textSize="40sp"
+                tools:layout_editor_absoluteX="78dp"
+                tools:layout_editor_absoluteY="95dp" />
+
+            <EditText
+                android:id="@+id/power5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignEnd="@id/base5View"
+                android:ems="10"
+                android:inputType="numberSigned|numberDecimal"
+                android:layout_alignRight="@id/base5View" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/base5View"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="86dp"
+                android:text="="
+                android:textSize="25dp"
+                android:layout_marginLeft="86dp"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/base5Answer"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text=" "
+                android:textSize="25dp"
+                android:layout_alignParentRight="true" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
